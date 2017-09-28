@@ -25,7 +25,7 @@ rotate就是置换，rot变换。
 >
 > file:Bacche/cave.png
 
-![cave]({{ site.url }}/assets/img/2017-09-02-HackCon-WP-cave.png)
+![cave]({{ site.url }}/assets/img/ctf/HackCon/2017-09-02-HackCon-WP-cave.png)
 
 A little bit of googling, and we find out it's [Egyptian Glyph Alphabet](http://www.virtual-egypt.com/newhtml/hieroglyphics/sample/alphabet.gif) After decoding, we get `THE FLAG IS EGYPTISBETTERTHANYOU`
 
