@@ -1,8 +1,14 @@
+---
+layout: post
+title: "JARVISOJ Writeup"
+categories: ctf jarvisoj
+tags: ctf writeup jarvisoj
+---
 # Web
 
 ### 100-port51
 
-![100-port51](md_lib/web/100-port51.png)
+![100-port51]({{ site.url }}/assets/img/ctf/jarvisoj/web/100-port51.png)
 
 > http://web.jarvisoj.com:32770/
 
@@ -20,13 +26,13 @@ curl --local-port 51 http://web.jarvisoj.com:32770/
 
 ### 100-api调用
 
-![100-api调用](md_lib/web/100-api调用.png)
+![100-api调用]({{ site.url }}/assets/img/ctf/jarvisoj/web/100-api调用.png)
 
 > http://web.jarvisoj.com:9882/
 
 这题是一个json数据传输。
 
-![100-api调用-1](md_lib/web/100-api调用-1.png)
+![100-api调用-1]({{ site.url }}/assets/img/ctf/jarvisoj/web/100-api调用-1.png)
 
 随意输入后并没有明显特征，查阅后是json的xxe攻击。
 
@@ -103,7 +109,7 @@ curl --local-port 51 http://web.jarvisoj.com:32770/
 
 ### 150-localhost
 
-![150-localhost](md_lib/web/150-localhost.png)
+![150-localhost]({{ site.url }}/assets/img/ctf/jarvisoj/web/150-localhost.png)
 
 > http://web.jarvisoj.com:32774/
 
@@ -580,7 +586,10 @@ im.show()
 
 尝试用WP推荐的uncompyle2和自己的pycdc都失败，magic number不对。
 
-
+<!--
 
 # Crypto
 
+
+
+-->

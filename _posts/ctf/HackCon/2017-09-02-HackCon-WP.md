@@ -2,7 +2,7 @@
 layout: post
 title: "HackCon 2017 Writeup"
 categories: ctf HackCon 2017
-tags: ctf writeup 2017
+tags: ctf writeup 2017 HackCon
 ---
 
 # Bacche
